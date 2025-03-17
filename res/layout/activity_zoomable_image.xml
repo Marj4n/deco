@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/BLACK" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.chrisbanes.photoview.PhotoView android:id="@id/photoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:id="@id/shareButton" android:background="@color/WHITE" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="16.0dip" android:src="@drawable/baseline_share_24" android:contentDescription="@string/share" />
+</FrameLayout>

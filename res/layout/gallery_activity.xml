@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/gallery_activity_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff09b0f3" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/back" android:drawablePadding="9.0dip" android:layout_centerVertical="true" android:drawableStart="@mipmap/back" android:paddingStart="21.0dip" />
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
